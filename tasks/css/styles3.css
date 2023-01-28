@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 nav {
     padding: 10px;
     background-color: black;
@@ -44,14 +45,14 @@ header {
 }
 
 .container {
-    right: 89px;
+    right: -0px;
     top: 200px;
 }
 
 .image-2 {
     position: absolute;
     top: 215px;
-    left: 100px;
+    left: 240px;
 }
 
 .image-2:hover {
