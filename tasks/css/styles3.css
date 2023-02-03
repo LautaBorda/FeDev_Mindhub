@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
-/* header & navbar */
+/* ===============  HEADER & NAVBAR =========================  */
 
 h1 {
     padding: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: xx-large;
 }
 
 header {
@@ -20,7 +22,7 @@ header {
 
 
 nav {
-    position:sticky;
+    position: sticky;
     top: 0;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +35,7 @@ nav {
 
 nav>a {
 
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -56,7 +59,13 @@ nav>a:hover {
     top: -273px;
 }
 
-/* containers index */
+h4 {
+    text-shadow: 1px 1px lightgrey;
+}
+
+
+
+/* ===============  CONTAINERS =========================  */
 
 .container {
     display: flex;
@@ -69,14 +78,17 @@ nav>a:hover {
 
 
 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     margin-top: 25px;
     margin-bottom: 15px;
     text-align: center;
-    text-decoration: overline;
+    background-color: lightgoldenrodyellow;
+    width: 20%;
 }
 
 
-.container-about{
+.container-about {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -88,8 +100,119 @@ h2 {
 
 
 .image {
-   width: 300px;
+    width: 300px;
 }
+
+/* ===============  GAME INFO STYLES =========================  */
+
+table {
+    width: 70%;
+    border-spacing: 20px 10px;
+    border-collapse: collapse;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.theader {
+    box-shadow: 3px 2px lightgrey;
+    border: 1px solid black;
+}
+
+caption {
+
+    text-align: initial;
+    border-spacing: 0px;
+    padding: 15px 0px;
+    text-decoration: underline;
+}
+
+tbody {
+    border: 1px solid;
+}
+
+.infoGametxt {
+    margin: 20px 0px;
+    align-items: center;
+    text-align: initial;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 70%;
+}
+
+ul>li{
+    padding: 5px;
+}
+
+.contact-Michael {
+    margin-left: 90px;
+    display: inline-block;
+}
+
+/* ===============  RULES =========================  */
+
+dd {
+    margin-left: 55px;
+}
+dt {
+    padding: 25px;
+    text-decoration: underline;
+}
+
+li>ol>li {
+    margin-left: 15px;
+}
+
+dd>ul>li {
+    list-style-type: circle;
+    margin-left: 15px;
+}
+
+li>ol {
+    padding: 13px 0px;
+}
+
+li>p {
+    padding: 13px 0px;
+}
+
+.header-rules{
+    text-align: center;
+}
+
+.container-rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.yellow-ribbon {
+    width: 493px;
+    height: 324px;
+    position: absolute;
+    z-index: -12;
+    top: 103px;
+    right: 263px;
+}
+
+
+
+/* ===============  ANIMATIONS =========================  */
 
 .image:hover {
     transform: scale(1.2);
@@ -103,5 +226,14 @@ article {
 
 article:hover {
     border: 1px solid black;
+    box-shadow: 3px 2px lightgrey;
 }
 
+/* PARA SABER EN QUE PAGINA ME ENCUENTRO  */
+
+a.current:link,
+a.current:visited {
+
+    color: rgb(228, 228, 158);
+
+}
