@@ -161,6 +161,36 @@ ul>li{
     display: inline-block;
 }
 
+.gameLocation {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card-container { 
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-maps {
+    padding: 10px;
+    box-shadow: 3px 2px lightgrey;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 13px;
+}
+
+.card-maps>h4 {
+    margin-bottom: 5px;
+}
+
 /* ===============  RULES =========================  */
 
 dd {
@@ -211,6 +241,15 @@ li>p {
 }
 
 
+/* =============== REGISTRATION =========================  */
+
+.formcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 
 /* ===============  ANIMATIONS =========================  */
 
@@ -236,4 +275,8 @@ a.current:visited {
 
     color: rgb(228, 228, 158);
 
+}
+
+.card-maps:hover {
+    transform: scale(1.1);
 }
