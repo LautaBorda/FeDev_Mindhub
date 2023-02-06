@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(/img/design2_image1.jpg);
+    height: 240px;
+}
+
+h1 {
+    position: absolute;
+    top: 5px;
+}
+
+nav>a{
+    color: white;
+    background-color: royalblue;
+    box-shadow: 4px 5px grey;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+nav {
+    position: absolute;
+    top: 42px;
+    right: 18px;
+}
+
+.container{
+    bottom: 100px;
+    left: 700px;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    top: 135px;
+    position: relative;
+    left: 120px;
+}
+article {
+    padding: 35px;
+
+}
+
+.container-about {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    right: 150px;
+}
+
+.image-2 {
+    position: absolute;
+    top: 800px;
+}
+
