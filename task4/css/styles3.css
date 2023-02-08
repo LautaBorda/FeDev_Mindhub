@@ -326,3 +326,26 @@ a.current:visited {
 }
 
 /* ===============  MEDIA QUERYS =========================  */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .container {
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .image {
+
+        width: 60%;
+    }
+
+    .imagecontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
